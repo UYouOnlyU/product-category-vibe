@@ -84,15 +84,24 @@ outputs/
 artifacts/
 models/
 checkpoints/
+project-plan.md
 
 # Secrets and credentials
 service-account.json
 service-account-*.json
+**/service-account*.json
 credentials*.json
 key*.json
 token*.json
 .secrets/
 secrets/
+*.pem
+*.p12
+*.crt
+*.key
+
+# Generated data files
+*.csv
 
 # Python bytecode in app folders just in case
 app/**/__pycache__/
